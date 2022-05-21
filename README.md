@@ -23,6 +23,7 @@
 8. 이후 차례로 셀 실행
 9. 문제에 답이 적혀있지 않기 때문에 처음에는 문제 검증에 실패함
 ![image](https://user-images.githubusercontent.com/10475287/169644652-77911482-b9ad-41e8-9d8c-a09066bd8ed8.png)
-10. 문제를 풀고 통과 확인
-11. 같은 방식으로 모든 문제를 풀기
-12. `8percent/programming-bitcoin` 저장소에 `chapter1/천명욱.ipynb` 과 같이 챕터, 이름을 맞추어 파일을 업로드
+10. 문제를 풀고 통과 확인. 우측에서 수정할 파일을 선택해서 열기.
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/2469766/169654763-fa3e2d2e-c3cf-4a8c-a9f5-8e970af02b79.png">
+12. 같은 방식으로 모든 문제를 풀기
+13. `8percent/programming-bitcoin` 저장소에 `chapter1/천명욱.ipynb` 과 같이 챕터, 이름을 맞추어 파일을 업로드
