@@ -9,24 +9,20 @@
 
 
 ## 연습문제 푸는 법
-1. 새 노트를 생성합니다.
-2. 첫번째 셀에서 `!git clone https://github.com/jimmysong/programmingbitcoin` 명령을 실행
-3. 두번째 셀에서 `!pip install requests` 명령을 실행
-4. 세번째 셀에서 `cd cd programmingbitcoin/code-ch01` 명령을 실행 (ch01 은 챕터 1)
-5. 문제풀이 코드를 작성합니다.
-6. `8percent/programming-bitcoin` 저장소에 `chapter1/천명욱.ipynb` 과 같이 챕터, 이름을 맞추어 파일을 업로드
-
-
-## 예제 코드 실행하는 법
-6. 실행 해 보고 싶다면 우선 colab 사이트에 접속 (https://colab.research.google.com/?hl=ko)
-7. Github 탭 클릭
-<img width="2529" alt="image" src="https://user-images.githubusercontent.com/10475287/169563384-a479daa7-d940-4f7e-809e-fe8ec89a5e8e.png">
-5. 저장소 변경 후 원하는 챕터 선택
-<img width="1032" alt="image" src="https://user-images.githubusercontent.com/10475287/169563657-2edb0f54-594d-44ef-8f05-5cadb6bff075.png">
-6. 코드 실행에 앞서 새 셀을 생성하여 `!git clone https://github.com/jimmys`ong/programmingbitcoin` 명령을 실행
-7. 다음 셀을 생성하여 `!pip install requests` 명령을 실행
-8. 다음 셀을 생성하여 `cd programmingbitcoin/code-ch01/` 명령을 실행 (챕터 2라면 ch01 을 ch02 로 바꿔줍니다.)
-<img width="863" alt="image" src="https://user-images.githubusercontent.com/10475287/169642912-f690cb94-f673-4ed1-85f1-e49801857860.png">
-8. 이후 코드들을 실행 해 봅니다.
-
-
+1. colab 사이트에 접속 (https://colab.research.google.com/?hl=ko)
+2. Github 탭 클릭
+![image](https://user-images.githubusercontent.com/10475287/169563384-a479daa7-d940-4f7e-809e-fe8ec89a5e8e.png)
+3. 저장소 변경 후 원하는 챕터 선택
+![image](https://user-images.githubusercontent.com/10475287/169563657-2edb0f54-594d-44ef-8f05-5cadb6bff075.png)
+4. 드라이브로 복사
+![image](https://user-images.githubusercontent.com/10475287/169644328-43f122e3-c0a3-45a3-91fe-3d2a99cb1151.png)
+5. 첫번째 셀에서 `!git clone https://github.com/jimmysong/programmingbitcoin` 명령을 실행
+6. 두번째 셀에서 `!pip install requests` 명령을 실행
+7. 세번째 셀에서 `cd cd programmingbitcoin/code-ch01` 명령을 실행 (ch01 은 챕터 1)
+![image](https://user-images.githubusercontent.com/10475287/169644421-3352fcfd-f63e-4d8e-886f-27e178c04c71.png)
+8. 이후 차례로 셀 실행
+9. 문제에 답이 적혀있지 않기 때문에 처음에는 문제 검증에 실패함
+![image](https://user-images.githubusercontent.com/10475287/169644652-77911482-b9ad-41e8-9d8c-a09066bd8ed8.png)
+10. 문제를 풀고 통과 확인
+11. 같은 방식으로 모든 문제를 풀기
+12. `8percent/programming-bitcoin` 저장소에 `chapter1/천명욱.ipynb` 과 같이 챕터, 이름을 맞추어 파일을 업로드
