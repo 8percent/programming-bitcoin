@@ -25,25 +25,25 @@ class FieldElement:
             return self.num == other.num and self.prime == other.prime
         return False
 
-    def __add__(self, other: object) -> Self:
+    def __add__(self, other: 'FieldElement') -> Self:
         if isinstance(other, FieldElement):
             self.check_same_order(other, 'add')
             return self.create_in_same_order(self.num + other.num)
         return NotImplemented
 
-    def __sub__(self, other: object) -> Self:
+    def __sub__(self, other: 'FieldElement') -> Self:
         if isinstance(other, FieldElement):
             self.check_same_order(other, 'subtract')
             return self.create_in_same_order(self.num - other.num)
         return NotImplemented
 
-    def __mul__(self, other: object) -> Self:
+    def __mul__(self, other: 'FieldElement') -> Self:
         if isinstance(other, FieldElement):
             self.check_same_order(other, 'multiply')
             return self.create_in_same_order(self.num * other.num)
         return NotImplemented
 
-    def __pow__(self, exponent: object) -> Self:
+    def __pow__(self, exponent: int) -> Self:
         if isinstance(exponent, int):
             n = exponent % (self.prime - 1)
             return self.create_in_same_order(pow(self.num, n, self.prime))
