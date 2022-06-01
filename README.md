@@ -18,7 +18,7 @@
 ![image](https://user-images.githubusercontent.com/10475287/169644328-43f122e3-c0a3-45a3-91fe-3d2a99cb1151.png)
 5. 첫번째 셀에서 `!git clone https://github.com/jimmysong/programmingbitcoin` 명령을 실행
 6. 두번째 셀에서 `!pip install requests` 명령을 실행
-7. 세번째 셀에서 `cd cd programmingbitcoin/code-ch01` 명령을 실행 (ch01 은 챕터 1)
+7. 세번째 셀에서 `cd programmingbitcoin/code-ch01` 명령을 실행 (ch01 은 챕터 1)
 ![image](https://user-images.githubusercontent.com/10475287/169644421-3352fcfd-f63e-4d8e-886f-27e178c04c71.png)
 8. 이후 차례로 셀 실행
 9. 문제에 답이 적혀있지 않기 때문에 처음에는 문제 검증에 실패함
